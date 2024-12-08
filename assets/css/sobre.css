@@ -1,0 +1,114 @@
+/* Estilo para a página Mais */
+
+/* Corpo e estrutura geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    width: 1269px;
+    background-color: #7DE2D1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Aumentado o padding para espaçamento interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 120px; /* Aumentado para deixar mais alto */
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+#logo img {
+    width: 70px; /* Aumentado o tamanho da logo */
+    height: 70px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#header-links {
+    display: flex;
+    align-items: center;
+}
+
+#header-links a {
+    margin: 0 15px; /* Aumentado o espaçamento entre os links */
+    text-decoration: none;
+    color: #008080;
+    font-weight: bold;
+    font-size: 16px; /* Aumentado o tamanho da fonte */
+}
+
+#login-btn {
+    padding: 12px 24px; /* Aumentado o botão */
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Seção dos criadores */
+#sobre-criadores {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#sobre-criadores h1 {
+    font-size: 28px;
+    color: #008080;
+    margin-bottom: 30px;
+}
+
+/* Bloco de cada criador */
+.criador {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.criador img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.texto-criador h2 {
+    font-size: 20px;
+    color: #008080;
+    margin-bottom: 5px;
+}
+
+.texto-criador p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    align-items: center;          /* Alinha verticalmente no centro */  
+}
+
+#Elytur{
+  margin: 0 auto;
+  font-style: none;
+}
+
+ a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    background-color: #7DE2D1;
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+    text-align: center;
+    color: rgb(211, 243, 235);
+  }
+
+  #header-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #131515;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #000000;
+}
+
+.destino {
+    margin-bottom: 20px;
+}
+
+.destino img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.pacote {
+    background-color: #7DE2D1;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pacote h4 {
+    color: #000000;
+}
+
+.pacote p {
+    color: #000000;
+}
